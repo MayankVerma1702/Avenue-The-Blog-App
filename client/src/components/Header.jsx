@@ -32,12 +32,18 @@ function Header() {
           <FaMoon />
         </Button>
         <Link to="/sign-in">
-          <Button gradientDuoTone="tealToLime">Sign In</Button>
+          <Button
+            gradientDuoTone="tealToLime"
+            // outline
+            className="bg-gradient-to-r  hover:from-teal-500 hover:to-lime-500 rounded"
+          >
+            Sign In
+          </Button>
         </Link>
         <Navbar.Toggle />
       </div>
 
-      <Navbar.Collapse className="md:flex md:flex-row md:space-x-8 md:text-sm md:font-medium">
+      <Navbar.Collapse className="md:flex md:flex-row md:space-x-8 md:text-sm md:font-medium p-2">
         <Navbar.Link
           active={path === "/"}
           as={"div"}
