@@ -34,7 +34,6 @@ function Header() {
         <Link to="/sign-in">
           <Button
             gradientDuoTone="tealToLime"
-            // outline
             className="bg-gradient-to-r  hover:from-teal-500 hover:to-lime-500 rounded"
           >
             Sign In
