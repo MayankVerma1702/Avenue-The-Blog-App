@@ -42,7 +42,7 @@ function Header() {
         <Navbar.Toggle />
       </div>
 
-      <Navbar.Collapse className="md:flex md:flex-row md:space-x-8 md:text-sm md:font-medium p-2">
+      <Navbar.Collapse className="md:flex md:flex-row md:space-x-8 md:text-sm md:font-medium p-2 md:order-2 md:justify-items-center">
         <Navbar.Link
           active={path === "/"}
           as={"div"}
