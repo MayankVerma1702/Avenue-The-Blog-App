@@ -16,6 +16,10 @@ const userSchema = Schema ({
     password: {
         type: String,
         required: true,
+    },
+    profilePicture: {
+        type: String,
+        default: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2Fvectors%2Fuser-profile.html&psig=AOvVaw3x7kqTW-uIsUyHn90JOvqY&ust=1720284153851000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCND2rIKskIcDFQAAAAAdAAAAABAE",
     } 
 }, {
     timestamps: true
