@@ -22,7 +22,7 @@ export default function CallToAction() {
         </Button>
       </div>
       <div className="p-7 flex-1">
-        <img src="../undraw-upload.svg" />
+        <img src="/undraw-upload.svg" />
       </div>
     </div>
   );
