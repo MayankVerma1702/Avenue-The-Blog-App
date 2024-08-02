@@ -22,7 +22,7 @@ export default function CallToAction() {
         </Button>
       </div>
       <div className="p-7 flex-1">
-        <img src="/undraw-upload.svg" />
+        <img src="https://res.cloudinary.com/dd7wbjqvx/image/upload/v1722600653/undraw-upload_arawgx.png" />
       </div>
     </div>
   );
