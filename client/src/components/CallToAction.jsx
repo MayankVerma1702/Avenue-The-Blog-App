@@ -8,18 +8,19 @@ export default function CallToAction() {
         <p className="text-gray-500 my-2">
           This appliation is made purely in vanillaJS
         </p>
-        <Button
-          gradientDuoTone="purpleToPink"
-          className="rounded-tl-xl rounded-bl-none"
+
+        <a
+          href="https://fisfr-frontend.onrender.com"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          <a
-            href="https://fisfr-frontend.onrender.com"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Button
+            gradientDuoTone="purpleToPink"
+            className="rounded-tl-xl rounded-bl-none w-full"
           >
             FisFr
-          </a>
-        </Button>
+          </Button>
+        </a>
       </div>
       <div className="p-7 flex-1">
         <img src="https://res.cloudinary.com/dd7wbjqvx/image/upload/v1722600653/undraw-upload_arawgx.png" />
